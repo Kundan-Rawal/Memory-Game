@@ -1,0 +1,115 @@
+.bg_container{
+    height:99vh;
+    width:99vw;
+    /* box-sizing: border-box; */
+    background-image: radial-gradient( circle 382px at 50% 50.2%,  rgba(73,76,212,1) 0.1%, rgba(3,1,50,1) 160% );
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    
+}
+
+.uinavbar{
+    height:10vh;
+    width:95%;
+    background-image: linear-gradient( to right , rgb(255, 156, 156) 50%, rgb(156, 156, 255) 50% );
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+    border: solid;
+    border-color: goldenrod;
+    border-width: 10px;
+    filter: drop-shadow(0px 0px 20px goldenrod);
+}
+
+
+.navinsidecomponent{
+    height:10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.profile_img1{
+    height: 10vh;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.profile_img2{
+    height: 10vh;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.versus_logo{
+    width:15vw;
+}
+.Detais_column{
+   width:100%;
+    height:10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+.player_name{
+    font-size:50px;
+    color: rgb(152, 0, 0);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 0px 0px 5px #fff;
+
+    position:relative;
+    top:20px;
+}
+.usernamedet{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top:-60px;
+    margin-left:40px;
+
+}
+.player_name2{
+    font-size:50px;
+    color: rgb(0, 21, 124);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 0px 0px 5px #fff;
+    margin-right: 40px;
+    position:relative;
+    top:20px;
+}
+.usernamedet1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top:-60px;
+    margin-right:40px;
+
+}
+.inforeqplayer1{
+    
+}
+
+
+/* hgvjvavkvavkavakhcvkavcoajvbjjbkbjkbjkbjjbjkbjjbbjbbbbbbjbbhhvvhvvjvhvhhvvhjvhjvhjvhjvhjvhjvhvhjvhjvhj */
+
+.gamewrapper{
+
+    width:50rem;
+    background-color:goldenrod;
+    height:40rem;
+    margin-top:40px;
+    justify-content: center;
+    border-radius: 10px;
+    filter: drop-shadow(0px 0px 10px goldenrod);
+}
+
+.game-container{
+position:relative;
+width:100%;
+display:grid;
+}
